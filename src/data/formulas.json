@@ -68,13 +68,13 @@
     {
         "name": "Consumo energético (kWh)",
         "description": "Calcula el consumo energético total en kilovatios-hora, multiplicando la potencia en kilovatios por el tiempo en horas. Se mide en kilovatios-hora (kWh).",
-        "equation": "power_kW*time_hours",
+        "equation": "power_kw*time_hours",
         "unitOfMeasureID": "kWh"
     },
     {
         "name": "Intensidad de carbono de la electricidad",
         "description": "Calcula la cantidad de CO2 emitida por unidad de electricidad generada, basada en la potencia en kilovatios y el tiempo en horas. Se mide en kilovatios-hora (kWh).",
-        "equation": "power_kW*time_hours",
+        "equation": "power_kw*time_hours",
         "unitOfMeasureID": "kWh"
     }
 ]
