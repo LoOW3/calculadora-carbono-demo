@@ -1,0 +1,57 @@
+[
+    {
+        "id": "total_price",
+        "name": "Precio total",
+        "unitOfMeasureID": "COP"
+    },
+    {
+        "id": "number_of_units",
+        "name": "Cantidad de unidades",
+        "unitOfMeasureID": ""
+    },
+    {
+        "id": "discount_percentage",
+        "name": "Porcentaje de descuento",
+        "unitOfMeasureID": "%"
+    },
+    {
+        "id": "iva_percentage",
+        "name": "Porcentaje de IVA",
+        "unitOfMeasureID": "%"
+    },
+    {
+        "id": "total_tax",
+        "name": "Valor total de impuestos",
+        "unitOfMeasureID": "COP"
+    },
+    {
+        "id": "profit_margin_percentage",
+        "name": "Porcentaje de margen de ganancia",
+        "unitOfMeasureID": "%"
+    },
+    {
+        "id": "material_cost",
+        "name": "Costo de materiales",
+        "unitOfMeasureID": "COP"
+    },
+    {
+        "id": "labor_cost",
+        "name": "Costo de mano de obra",
+        "unitOfMeasureID": "COP"
+    },
+    {
+        "id": "overhead_cost",
+        "name": "Gastos generales",
+        "unitOfMeasureID": "COP"
+    },
+    {
+        "id": "net_profit",
+        "name": "Beneficio neto",
+        "unitOfMeasureID": "COP"
+    },
+    {
+        "id": "total_revenue",
+        "name": "Ingreso total",
+        "unitOfMeasureID": "COP"
+    }
+]
