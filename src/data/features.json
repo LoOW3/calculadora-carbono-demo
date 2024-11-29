@@ -53,5 +53,45 @@
         "id": "total_revenue",
         "name": "Ingreso total",
         "unitOfMeasureID": "COP"
+    },
+    {
+        "id": "distance_traveled",
+        "name": "Distancia recorrida",
+        "unitOfMeasureID": "millas"
+    },
+    {
+        "id": "emission_factor",
+        "name": "Factor de emisión",
+        "unitOfMeasureID": "gCO2/milla"
+    },
+    {
+        "id": "co2_emissions_public_transport",
+        "name": "Emisiones de CO2 por transporte público",
+        "unitOfMeasureID": "kg"
+    },
+    {
+        "id": "energy_consumption_kwh",
+        "name": "Consumo energético (kWh)",
+        "unitOfMeasureID": "kWh"
+    },
+    {
+        "id": "carbon_intensity_electricity",
+        "name": "Intensidad de carbono de la electricidad",
+        "unitOfMeasureID": "kgCO2/kWh"
+    },
+    {
+        "id": "co2_emissions_home_energy",
+        "name": "Emisiones de CO2 por consumo energético en el hogar",
+        "unitOfMeasureID": "kg"
+    },
+    {
+        "id": "power_kw",
+        "name": "Potencia (kW)",
+        "unitOfMeasureID": "kW"
+    },
+    {
+        "id": "time_hours",
+        "name": "Tiempo (horas)",
+        "unitOfMeasureID": "h"
     }
 ]

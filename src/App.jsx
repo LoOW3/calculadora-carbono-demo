@@ -102,6 +102,7 @@ export default function App() {
                 <div className="max-w-md mb-3">
                   <div className="mb-2 block">
                     <Label htmlFor="formula" value="Seleccionar una formula" />
+                    <p className='text-gray-500 text-xs font-light'>{selectedFormula.description}</p>
                   </div>
                   <Select
                     id="formula"
