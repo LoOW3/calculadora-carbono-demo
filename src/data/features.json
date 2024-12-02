@@ -71,7 +71,7 @@
     },
     {
         "id": "energy_consumption_kwh",
-        "name": "Consumo energético (kWh)",
+        "name": "Consumo energético",
         "unitOfMeasureID": "kWh"
     },
     {
@@ -86,12 +86,12 @@
     },
     {
         "id": "power_kw",
-        "name": "Potencia (kW)",
+        "name": "Potencia",
         "unitOfMeasureID": "kW"
     },
     {
         "id": "time_hours",
-        "name": "Tiempo (horas)",
+        "name": "Tiempo",
         "unitOfMeasureID": "h"
     }
 ]
