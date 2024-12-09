@@ -1,59 +1,5 @@
 [
     {
-        "name": "Valor de la Unidad",
-        "description": "Es el precio total dividido entre el número de unidades. Se mide en COP (pesos colombianos)",
-        "equation": "total_price/number_of_units",
-        "unitOfMeasureID": "COP"
-    },
-    {
-        "name": "Descuento aplicado",
-        "description": "Es el valor de descuento aplicado sobre el precio total. Se mide en COP.",
-        "equation": "total_price*discount_percentage",
-        "unitOfMeasureID": "COP"
-    },
-    {
-        "name": "Precio con IVA",
-        "description": "Es el precio total sumado con el IVA. Se mide en COP.",
-        "equation": "total_price*(1 + (iva_percentage / 100))",
-        "unitOfMeasureID": "COP"
-    },
-    {
-        "name": "Valor por unidad con IVA",
-        "description": "Es el precio por unidad con el IVA incluido. Se mide en COP.",
-        "equation": "total_price/number_of_units*(1 + (iva_percentage / 100))",
-        "unitOfMeasureID": "COP"
-    },
-    {
-        "name": "Precio total con impuestos",
-        "description": "Es el precio total incluyendo impuestos. Se mide en COP.",
-        "equation": "total_price + total_tax",
-        "unitOfMeasureID": "COP"
-    },
-    {
-        "name": "Costo por unidad después de descuento e IVA",
-        "description": "Es el costo de cada unidad después de aplicar el descuento y agregar el IVA. Se mide en COP.",
-        "equation": "(total_price*(1 - (discount_percentage / 100)))/number_of_units*(1 + (iva_percentage / 100))",
-        "unitOfMeasureID": "COP"
-    },
-    {
-        "name": "Margen de ganancia",
-        "description": "Es el porcentaje de ganancia sobre el costo de producción. Se mide en porcentaje.",
-        "equation": "(profit_margin_percentage/100)*total_price",
-        "unitOfMeasureID": "%"
-    },
-    {
-        "name": "Costo total de producción",
-        "description": "Es el costo total sumando los materiales, mano de obra y otros gastos. Se mide en COP.",
-        "equation": "material_cost + labor_cost + overhead_cost",
-        "unitOfMeasureID": "COP"
-    },
-    {
-        "name": "Rentabilidad neta",
-        "description": "Es la rentabilidad neta después de impuestos. Se mide en porcentaje.",
-        "equation": "(net_profit/total_revenue)*100",
-        "unitOfMeasureID": "%"
-    },
-    {
         "name": "Emisiones de CO2 por transporte público",
         "description": "Calcula la cantidad de CO2 emitida durante un viaje en transporte público, basado en la distancia recorrida y el factor de emisión del medio de transporte. Se mide en kilogramos (kg).",
         "equation": "distance_traveled*emission_factor",
